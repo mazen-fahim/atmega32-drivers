@@ -1,0 +1,15 @@
+TIMER/COUTNER1
+---------------
+1) counter register 16 bit
+2) output compare register 16 bit (has the value that i compare against)
+    -> its devided into two 8bit registers for each channel A,B.
+3) input capture register 
+3) control register A ( Compare output mode for ch
+    a) compare output mode (controls the OC1A OC1B pin output behavior) for channel A and B "I don't really need this in ICU only when i try to outpt PWM"
+    b) wave generation mode "TIMER/COUNTER1 operation mode" (also controls how the OC1A OC1B pin output behavior
+4) control register B 
+    a) input capture noise canceler
+    b) input capture edge select ICES
+    c) clock source (prescalar)
+5) TIMSK
+6) TIFR
