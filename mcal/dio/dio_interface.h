@@ -12,16 +12,19 @@
 #define INPUT 0
 #define OUTPUT 1
 
-void DIO_VoidSetPinDirection(u8 Copy_U8PortNum, u8 Copy_U8PinNum, u8 Copy_U8PinDir);
+void DIO_VoidSetPinDirection(u8 Copy_U8PortNum, u8 Copy_U8PinNum,
+                             u8 Copy_U8PinDir);
 void DIO_VoidSetPortDirection(u8 Copy_U8PortNum, u8 Copy_U8PortDir);
 
-void DIO_VoidActivatePinInternalPullupResistor(u8 Copy_U8PortNum, u8 Copy_U8PinNum);
+void DIO_VoidActivatePinInternalPullupResistor(u8 Copy_U8PortNum,
+                                               u8 Copy_U8PinNum);
 void DIO_VoidActivatePortInternalPullupResistor(u8 Copy_U8PortNum);
 
 u8 DIO_U8GetPinValue(u8 Copy_U8PortNum, u8 Copy_U8PinNum);
 u8 DIO_U8GetPortValue(u8 Copy_U8PortNum);
 
-void DIO_VoidSetPinValue(u8 Copy_U8PortNum, u8 Copy_U8PinNum, u8 Copy_U8PinValue);
+void DIO_VoidSetPinValue(u8 Copy_U8PortNum, u8 Copy_U8PinNum,
+                         u8 Copy_U8PinValue);
 void DIO_VoidSetPortValue(u8 Copy_U8PortNum, u8 Copy_U8PortValue);
 
 void DIO_VoidTogglePinValue(u8 Copy_U8PortNum, u8 Copy_U8PinNum);
